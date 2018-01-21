@@ -32,9 +32,9 @@
 			// 'taxonomies'	=> array( 'post_tag', 'category' )
 		);
 
-		register_post_type('needs', $args);
+		register_post_type('need', $args);
 
 	};
 	
-	add_action('init', nl_define_need_post);
+	add_action('init', 'nl_define_need_post');
 ?>
