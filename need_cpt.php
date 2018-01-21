@@ -25,7 +25,7 @@
 		$args = array( 
 			'labels'		=> $labels,
 			'public'		=> true,
-			'rewrite'		=> array( 'slug' => 'recipe' ),
+			'rewrite'		=> array( 'slug' => 'need' ),
 			'has_archive'   => true,
 			'menu_position' => 5,
 			'menu_icon'     => 'dashicons-sos'
